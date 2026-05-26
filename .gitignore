@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — never commit raw datasets
+*.pkl
+*.tar.gz
+*.zip
+*.bin
+cifar-*/
+stl10*/
+Intel*/
+octmnist*/
+
+# Outputs — figures and tables are generated, not tracked
+*_outputs/
+TPAMI_UPGRADE/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
